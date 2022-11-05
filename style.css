@@ -1,0 +1,87 @@
+.employee-form {
+    border-style: solid;  
+    padding: 10px;   
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;  
+    width: 50%;
+    
+}
+
+.employees-table {
+    padding: 20px;
+    margin: auto;
+    margin-top: 3%;
+    width: 70%;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+
+table.list{
+    width:100%;
+}
+
+td, th {
+    border: 0.8px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+table.list thead>tr {
+    background-color: #dddddd;
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select{
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 16%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    background-color: black;
+    color: white;;
+    margin-right: 4px;
+}
+
+.validation-error{
+    color:   red;   
+    margin-left: 45%;
+    margin-top: 50px;
+}
+
+
+.hide{
+    display:none;
+}
